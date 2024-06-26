@@ -15,7 +15,7 @@ This project contains tasks for learning to create a queueing system in JavaScri
     ```
     + Start Redis in the background with `src/redis-server`.
     + Make sure that the server is working with a ping `src/redis-cli ping`.
-    + Using the Redis client again, set the valu `School` for the key `Holberton`.
+    + Using the Redis client again, set the value `School` for the key `Holberton`.
     + Kill the server with the process id of the redis-server (hint: use ps and grep).
   + Copy the [`dump.rdb`](dump.rdb) from the `redis-6.0.10` directory into the root of this project.
   + **Requirements:**
